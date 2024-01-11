@@ -1,0 +1,13 @@
+#!/bin/bash
+
+readonly DIR=$(dirname $(realpath ${BASH_SOURCE[0]}))
+readonly CWD="$PWD"
+readonly PROJDIR=$(realpath "${DIR}/../..")
+
+# run the whole script from the project directory
+cd "${PROJDIR}"
+
+source ./env/bin/activate
+
+#export PYTHONPATH="${PROJDIR}"
+cd "${PROJDIR}/python" || exit

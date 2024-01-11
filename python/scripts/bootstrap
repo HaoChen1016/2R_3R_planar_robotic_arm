@@ -1,0 +1,15 @@
+#!/bin/bash
+
+readonly DIR=$(dirname $(realpath ${BASH_SOURCE[0]}))
+readonly CWD="$PWD"
+readonly PROJDIR=$(realpath "${DIR}/../..")
+
+# run the whole script from the project directory
+cd "${PROJDIR}" || exit
+
+python -m venv env
+source "${DIR}/init"
+
+# Install updates within the venv
+pip install --upgrade pip wheel setuptools
+pip install .

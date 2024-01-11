@@ -1,0 +1,7 @@
+flake8==3.9.2
+importlib-metadata==4.5.0
+mypy==1.6.1
+mypy-extensions>=1.0.0
+numpy==1.26.1
+pycodestyle==2.7.0
+pygame==2.5.2

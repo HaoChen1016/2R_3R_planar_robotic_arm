@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/challenge.py
+src/Gherkin_Challenge.egg-info/PKG-INFO
+src/Gherkin_Challenge.egg-info/SOURCES.txt
+src/Gherkin_Challenge.egg-info/dependency_links.txt
+src/Gherkin_Challenge.egg-info/requires.txt
+src/Gherkin_Challenge.egg-info/top_level.txt

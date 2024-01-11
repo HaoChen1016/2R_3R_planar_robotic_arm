@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Gherkin-Challenge
+Version: 0.0.1
+Requires-Dist: flake8==3.9.2
+Requires-Dist: importlib-metadata==4.5.0
+Requires-Dist: mypy==1.6.1
+Requires-Dist: mypy-extensions>=1.0.0
+Requires-Dist: numpy==1.26.1
+Requires-Dist: pycodestyle==2.7.0
+Requires-Dist: pygame==2.5.2
